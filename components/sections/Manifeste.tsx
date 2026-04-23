@@ -9,7 +9,7 @@ export default function Manifeste() {
   const titleRef    = useReveal<HTMLHeadingElement>({ direction: 'up', delay: 0.1 });
   const body1Ref    = useReveal<HTMLParagraphElement>({ direction: 'up', delay: 0.2 });
   const body2Ref    = useReveal<HTMLParagraphElement>({ direction: 'up', delay: 0.3 });
-  const quoteRef    = useReveal<HTMLElement>({ direction: 'up', delay: 0.4 });
+  const quoteRef    = useReveal<HTMLQuoteElement>({ direction: 'up', delay: 0.4 });
   const ctaRef      = useReveal<HTMLAnchorElement>({ direction: 'up', delay: 0.5 });
   const imgWrapRef  = useReveal<HTMLDivElement>({ direction: 'scale' });
   const imgParallax = useParallax<HTMLImageElement>({ speed: 0.12 });
