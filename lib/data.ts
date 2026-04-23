@@ -143,7 +143,7 @@ export const ACCOMMODATIONS_DATA: Accommodation[] = [
     longDesc:    'Entièrement restaurée et décorée par des artisans locaux, la Roulotte Prestige joue la carte de l\'authenticité avec son âme vintage et son confort contemporain. Le poêle à bois crée une atmosphère incomparable lors des soirées fraîches du Finistère.',
     images: [
       {
-        src: 'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=900&q=82',
+        src: 'https://images.unsplash.com/photo-1510672981848-a1c4f1cb5ccf?auto=format&fit=crop&w=900&q=82',
         alt: 'Roulotte prestige au cœur du parc du domaine de Lanniron',
       },
     ],
@@ -196,7 +196,7 @@ export const EXPERIENCES_DATA: Experience[] = [
     title:    'Des vacances qui marquent',
     description: 'Espace jeux, animations, liberté de mouvement — le bonheur d\'une famille en plein air.',
     image: {
-      src: 'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=900&q=82',
+      src: 'https://images.unsplash.com/photo-1510672981848-a1c4f1cb5ccf?auto=format&fit=crop&w=900&q=82',
       alt: 'Famille profitant d\'un coucher de soleil en Bretagne',
     },
   },
