@@ -25,7 +25,7 @@ export default function Hero() {
   return (
     <section
       className="relative flex items-center justify-center overflow-hidden"
-      style={{ height: '100svh', minHeight: 600 }}
+      style={{ height: '100svh', minHeight: 600, background: 'var(--forest)' }}
       aria-label="Bienvenue au domaine de Lanniron"
     >
       {/* -------- Fond parallaxe -------- */}
@@ -80,7 +80,7 @@ export default function Hero() {
 
         {/* Eyebrow */}
         <p
-          className="font-serif italic tracking-[0.06em] mb-3 opacity-0 animate-fade-up"
+          className="font-serif italic tracking-[0.06em] mb-3 animate-fade-up"
           style={{
             fontSize: 'clamp(0.9rem, 1.5vw, 1.1rem)',
             fontWeight: 300,
@@ -94,7 +94,7 @@ export default function Hero() {
 
         {/* Titre principal */}
         <h1
-          className="font-serif font-light leading-[0.9] tracking-tight opacity-0 animate-fade-up"
+          className="font-serif font-light leading-[0.9] tracking-tight animate-fade-up"
           style={{
             fontSize: 'clamp(3.5rem, 8vw, 7.5rem)',
             animationDelay: '0.75s',
@@ -116,7 +116,7 @@ export default function Hero() {
 
         {/* Sous-titre */}
         <p
-          className="font-serif font-light mt-4 mb-10 opacity-0 animate-fade-up"
+          className="font-serif font-light mt-4 mb-10 animate-fade-up"
           style={{
             fontSize: 'clamp(1.1rem, 2.5vw, 1.8rem)',
             color: 'rgba(253,250,245,0.78)',
@@ -129,7 +129,7 @@ export default function Hero() {
 
         {/* CTAs */}
         <div
-          className="flex gap-4 justify-center flex-wrap opacity-0 animate-fade-up"
+          className="flex gap-4 justify-center flex-wrap animate-fade-up"
           style={{ animationDelay: '1.15s', animationFillMode: 'forwards' }}
         >
           <button
@@ -149,7 +149,7 @@ export default function Hero() {
 
       {/* -------- Indicateur de scroll -------- */}
       <div
-        className="absolute bottom-9 left-1/2 -translate-x-1/2 z-[3] flex flex-col items-center gap-2 opacity-0 animate-fade-in"
+        className="absolute bottom-9 left-1/2 -translate-x-1/2 z-[3] flex flex-col items-center gap-2 animate-fade-in"
         style={{ animationDelay: '1.8s', animationFillMode: 'forwards' }}
         aria-hidden="true"
       >
